@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'ShadowHand';
+    src: url('//2ttf.com/webfont/UIswCwhB/webfont.ttf') format('truetype');
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+    font-family: 'Open Sans';
+    margin: auto;
+}
+
+.cats-title-div {
+    /* width: 90vw; */
+    margin: 0 auto 0 auto;
+    padding: 1vh 0 1vh 0;
+    left: 0;
+    background-image: linear-gradient(black, #1a1a1a );
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cats-title {
+    /* margin-top: 10vh; */
+    text-align: center;
+    color: white;
+    user-select: none;
+    font-family: 'ShadowHand';
+    font-size: 12em;
+}
+
+.section-text-div {
+    margin-left: 2vw;
+}
+
+.section-title {
+    color: white;
+    font-size: 4em;
+}
+
+.section-text {
+    color: white;
+    font-size: 1.8em;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.image {
+    width: 20vw;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+.to-right {
+    right: 0;
+    margin-left: auto;
+}
+
+.cyberpunk {
+    background-image: linear-gradient(180deg, #272829, #1a1a1a);
+}
+
+.section-div {
+    background-color: rgba(26, 26, 26, 0.4);
+    margin-bottom: 4vh;
+}
