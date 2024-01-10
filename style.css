@@ -2,11 +2,16 @@
     font-family: 'ShadowHand';
     src: url('//2ttf.com/webfont/UIswCwhB/webfont.ttf') format('truetype');
     font-family: 'Open Sans', sans-serif;
+    font-family: "IsamiRi Display", sans-serif;
+    font-family: 'Geologica', sans-serif;
 }
+
+@import url('https://cdn.jsdelivr.net/gh/isamirivers/IsamiRi-Display@main/stylesheet.css');
+
 
 body {
     background-color: black;
-    font-family: 'Open Sans';
+    font-family: 'Geologica';
     margin: auto;
 }
 
@@ -22,7 +27,7 @@ body {
     text-align: center;
     color: white;
     user-select: none;
-    font-family: 'ShadowHand';
+    font-family: 'IsamiRi Display';
     font-size: 12em;
 }
 
@@ -31,15 +36,30 @@ body {
 }
 
 .section-title {
+    margin-top: 2vh;
     color: white;
     font-size: 4em;
     border-radius: 5px;
-    text-decoration: underline;
+    font-weight: 700;
+}
+
+.title-line {
+    border: 4.4px solid white;
+    border-radius: 5px;
+    width: 25vw;
+    margin-top: -4.4vh;
 }
 
 .section-text {
     color: white;
     font-size: 1.8em;
+    text-indent: 2.5vw;
+}
+
+.section-div {
+    background-color: rgba(44, 39, 39, 0.4);
+    margin-bottom: 4vh;
+    padding: 1vh 1vw;
 }
 
 .flex {
@@ -58,14 +78,8 @@ body {
     height: 45vh;
 }
 
-
 .cyberpunk {
     background-image: linear-gradient(180deg, #272829, #1a1a1a);
-}
-
-.section-div {
-    background-color: rgba(44, 39, 39, 0.4);
-    margin-bottom: 4vh;
 }
 
 .pedro {
