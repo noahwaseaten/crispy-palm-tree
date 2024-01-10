@@ -11,16 +11,14 @@ body {
 }
 
 .cats-title-div {
-    /* width: 90vw; */
     margin: 0 auto 0 auto;
     padding: 1vh 0 1vh 0;
     left: 0;
-    background-image: linear-gradient(black, #1a1a1a );
+    background-image: linear-gradient(black, #1a1a1a);
     border-radius: 10px 10px 0px 0px;
 }
 
 .cats-title {
-    /* margin-top: 10vh; */
     text-align: center;
     color: white;
     user-select: none;
@@ -35,13 +33,14 @@ body {
 .section-title {
     color: white;
     font-size: 4em;
+    border-radius: 5px;
+    text-decoration: underline;
 }
 
 .section-text {
     color: white;
     font-size: 1.8em;
 }
-
 
 .flex {
     display: flex;
@@ -56,13 +55,20 @@ body {
 .to-right {
     right: 0;
     margin-left: auto;
+    height: 45vh;
 }
+
 
 .cyberpunk {
     background-image: linear-gradient(180deg, #272829, #1a1a1a);
 }
 
 .section-div {
-    background-color: rgba(26, 26, 26, 0.4);
+    background-color: rgba(44, 39, 39, 0.4);
     margin-bottom: 4vh;
+}
+
+.pedro {
+    width: 50vw;
+    height: 30vh;
 }
