@@ -19,7 +19,7 @@ body {
     margin: 0 auto 0 auto;
     padding: 1vh 0 1vh 0;
     left: 0;
-    background-image: linear-gradient( #1b1515, #272829);
+    background-image: linear-gradient(#1b1515, #272829);
 }
 
 .cats-title {
@@ -30,52 +30,86 @@ body {
     font-size: 12em;
 }
 
-.section-text-div {
-    margin-left: 2vw;
-}
-
-.section-title {
-    margin-top: 2vh;
-    color: white;
-    font-size: 4em;
-    border-radius: 5px;
-    font-weight: 700;
-}
-
-.title-line {
-    border: 4.4px solid white;
-    border-radius: 5px;
-    width: 27vw;
-    margin-top: -4.4vh;
-}
-
-.title-line-cat {
-    border: 4.4px solid white;
-    border-radius: 5px;
-    width: 23.5vw;
-    margin-top: -4.4vh;
-}
-
-.section-text {
-    color: white;
-    font-size: 1.8em;
-    text-indent: 2.5vw;
-}
-
 .section-div {
     background-color: rgba(44, 39, 39, 0.4);
     margin-bottom: 4vh;
     padding: 1vh 1vw;
 }
 
-.flex {
-    display: flex;
+.section-div-biology {
+    background: linear-gradient(#272829, #272829) padding-box,
+    linear-gradient(to right, #864fa2, #426eb7) border-box;
+    border-radius: 40px;
+    border: 8px solid transparent;
+}
+
+.section-title,
+.section-title-biology {
+    margin-top: 2vh;
+    color: white;
+    font-size: 3.6em;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.section-title-biology {
+    font-family: "IsamiRi Display";
+    text-align: center;
+    font-size: 6em;
+    font-weight: 200;
+    margin-left: 2.5vw;
+}
+
+.section-text-div {
+    margin-left: 2vw;
+}
+
+.section-text,
+.section-text-biology {
+    color: white;
+    font-size: 2em;
+    text-indent: 2.5vw;
+}
+
+.section-text-biology {
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+}
+
+
+.title-line, .title-line-food, .title-line-behav {
+    border: 4.4px solid white;
+    border-radius: 5px;
+    width: 30vw;
+    margin-top: -5vh;
+}
+
+.title-line-behav {
+    width: 16.5vw;
+}
+
+.title-line-food {
+    width: 12.5vw;
+}
+
+.title-line-cat {
+    border: 4.4px solid white;
+    border-radius: 5px;
+    width: 26vw;
+    margin-top: -5vh;
 }
 
 .image {
     width: 20vw;
     border-radius: 5px;
     border: 2px solid lightgray;
+}
+
+.pedro {
+    width: 50vw;
+    height: 30vh;
+    border-radius: 5px;
+    border: 2.2px solid lightgray;
 }
 
 .to-right {
@@ -88,9 +122,6 @@ body {
     background-image: linear-gradient(180deg, #272829, #1a1a1a);
 }
 
-.pedro {
-    width: 50vw;
-    height: 30vh;
-    border-radius: 5px;
-    border: 2.2px solid lightgray;
+.flex {
+    display: flex;
 }
