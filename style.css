@@ -16,7 +16,7 @@ body {
 }
 
 .cats-title-div {
-    margin: 0 auto 0 auto;
+    margin: -100px auto 0px auto;
     padding: 1vh 0 1vh 0;
     left: 0;
     background-image: linear-gradient(#1b1515, #272829);
