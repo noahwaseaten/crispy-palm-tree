@@ -42,18 +42,31 @@ body {
     font-weight: 700;
 }
 
+.section-title-link {
+    margin-top: 2vh;
+    color: white;
+    transition: 0.25s;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.section-title-link:hover {
+  color: purple;
+}
+
 .title-line {
     border: 4.4px solid white;
     border-radius: 5px;
-    width: 27vw;
-    margin-top: -4.4vh;
+    width: 40vw;
+    margin-top: -9.5vh;
 }
 
 .title-line-cat {
     border: 4.4px solid white;
     border-radius: 5px;
-    width: 23.5vw;
-    margin-top: -4.4vh;
+    width: 34vw;
+    margin-top: -9.5vh;
 }
 
 .section-text {
