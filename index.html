@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cats</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/isamirivers/IsamiRi-Display@main/stylesheet.css"
@@ -15,21 +16,24 @@
       href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap"
       rel="stylesheet"
     />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
-      rel="stylesheet"
-    /> -->
   </head>
   <body>
+    <div id="header">
+      <button class="header-button introduction" section="introduction">Начало</button>
+      <button class="header-button biology" section="biology">Биология</button>
+    </div>
+
     <div class="cats-title-div">
       <p class="cats-title">Котки</p>
     </div>
 
     <div class="cyberpunk">
       <div class="flex section-div">
+        <div class="image-div-casper">
         <img src="images/madcasper.jpg" class="image" />
+        </div>
         <div class="section-text-div">
-          <p class="section-title">Какво са котките?</p>
+          <p id="introduction" class="section-title">Какво са котките?</p>
           <div class="title-line-cat"></div>
           <p class="section-text">
             Котките са два различни вида - Домашни и Диви.
@@ -43,7 +47,7 @@
 
       <div class="flex section-div-biology">
         <div class="section-text-div">
-          <p class="section-title-biology">Биология на котките</p>
+          <p id="biology" class="section-title-biology">Биология на котките</p>
           <p class="section-text-biology">
             Котката е опитомен член на семейството Felidae (Коткови). Те също са
             най-малкият член на семейството.
@@ -52,7 +56,9 @@
       </div>
 
       <div class="flex section-div">
+        <div class="image-div-benu">
         <img src="images/benu.jpg" class="image" />
+        </div>
         <div class="section-text-div">
           <p class="section-title">Хранене</p>
           <div class="title-line-food"></div>
@@ -82,7 +88,9 @@
             околната си среда и да играят с играчки.
           </p>
         </div>
-        <img src="images/pedro.png" class="pedro to-right" />
+        <div class="image-div">
+        <img src="images/pepi.png" class="pedro to-right" />
+      </div>
       </div>
     </div>
   </body>
