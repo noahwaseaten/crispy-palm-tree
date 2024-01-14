@@ -36,15 +36,17 @@ body {
     padding: 1vh 1vw;
 }
 
-.section-div-biology {
+.section-div-biology,
+.section-div-history {
     background: linear-gradient(#272829, #272829) padding-box,
-    linear-gradient(to right, #864fa2, #426eb7) border-box;
+        linear-gradient(to right, #864fa2, #426eb7) border-box;
     border-radius: 40px;
     border: 8px solid transparent;
 }
 
 .section-title,
-.section-title-biology {
+.section-title-biology,
+.section-title-history {
     margin-top: 2vh;
     color: white;
     font-size: 3.6em;
@@ -52,12 +54,17 @@ body {
     font-weight: 700;
 }
 
-.section-title-biology {
+.section-title-biology,
+.section-title-history {
     font-family: "IsamiRi Display";
     text-align: center;
     font-size: 6em;
     font-weight: 200;
     margin-left: 2.5vw;
+}
+
+.section-title-history {
+    margin-left: 8vw;
 }
 
 .section-text-div {
@@ -76,8 +83,18 @@ body {
     margin-bottom: 3vh;
 }
 
+.section-text-history {
+    color: white;
+    font-size: 2em;
+    margin-left: 9vw;
+}
 
-.title-line, .title-line-food, .title-line-behav {
+
+.title-line,
+.title-line-food,
+.title-line-behav,
+.title-line-sleep, 
+.title-line-prehistory {
     border: 4.4px solid white;
     border-radius: 5px;
     width: 30vw;
@@ -92,6 +109,14 @@ body {
     width: 12.5vw;
 }
 
+.title-line-sleep {
+    width: 25.5vw;
+}
+
+.title-line-prehistory {
+    width: 18vw;
+}
+
 .title-line-cat {
     border: 4.4px solid white;
     border-radius: 5px;
@@ -99,9 +124,11 @@ body {
     margin-top: -5vh;
 }
 
-.image-div, .image-div-benu, .image-div-casper {
+.image-div,
+.image-div-benu,
+.image-div-casper {
     background: linear-gradient(transparent, transparent) padding-box,
-    linear-gradient(to right, #a0d4a6, #b67295) border-box;
+        linear-gradient(to right, #a0d4a6, #b67295) border-box;
     border-radius: 46px;
     border: 8px solid transparent;
     height: fit-content;
@@ -109,12 +136,12 @@ body {
 
 .image-div-benu {
     background: linear-gradient(transparent, transparent) padding-box,
-    linear-gradient(to right, #fba51a, #f6ed60) border-box;
+        linear-gradient(to right, #fba51a, #f6ed60) border-box;
 }
 
 .image-div-casper {
     background: linear-gradient(transparent, transparent) padding-box,
-    linear-gradient(to right, #9a9a9a, #00dddd) border-box;
+        linear-gradient(to right, #9a9a9a, #00dddd) border-box;
 }
 
 .image {
@@ -123,6 +150,13 @@ body {
 }
 
 .pedro {
+    width: auto;
+    height: 30vh;
+    margin-top: 4px;
+    border-radius: 40px;
+}
+
+.benu {
     width: auto;
     height: 30vh;
     margin-top: 4px;
@@ -161,12 +195,15 @@ body {
     color: white;
     font-size: 1.8em;
     margin: auto;
-    height: 6vh;
+    height: 4.5vh;
     font-family: "IsamiRi Display";
 }
 
 .header-button:hover {
-    color: #864fa2;
+    color: #a026dd;
     cursor: pointer;
 }
 
+.header-button:active { 
+    color: #c300ff;
+}
