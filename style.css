@@ -36,6 +36,12 @@ body {
     padding: 1vh 1vw;
 }
 
+.section-div-normal {
+    background-color: rgba(44, 39, 39, 0.4);
+    margin-bottom: 4vh;
+    padding: 1vh 1vw;
+}
+
 .section-div-biology,
 .section-div-history {
     background: linear-gradient(#272829, #272829) padding-box,
@@ -72,7 +78,8 @@ body {
 }
 
 .section-text,
-.section-text-biology {
+.section-text-biology,
+.section-under-text {
     color: white;
     font-size: 2em;
     text-indent: 2.5vw;
@@ -93,7 +100,7 @@ body {
 .title-line,
 .title-line-food,
 .title-line-behav,
-.title-line-sleep, 
+.title-line-sleep,
 .title-line-prehistory,
 .title-line-antiquity,
 .title-line-time,
@@ -141,18 +148,22 @@ body {
 
 .image-div,
 .image-div-benu,
-.image-div-casper {
+.image-div-casper,
+.image-div-long,
+.image-div-long2,
+.image-div-cat {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #a0d4a6, #b67295) border-box;
     border-radius: 46px;
     border: 8px solid transparent;
     height: fit-content;
+    width: fit-content;
 }
 
 .image-div-benu {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #fba51a, #f6ed60) border-box;
-        margin-top: 25px;
+    margin-top: 25px;
 }
 
 .image-div-casper {
@@ -160,10 +171,45 @@ body {
         linear-gradient(to right, #9a9a9a, #00dddd) border-box;
 }
 
-.image {
+.image-div-long {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #fba51a, #f6ed60) border-box;
+    margin-left: 10px;
+}
+
+.image-div-long2 {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #ea00ff, #1900ff) border-box;
+        margin-left: 10px;
+}
+
+.image-div-cat {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #ea00ff, #1900ff) border-box;
+        margin-left: 10px;
+        margin-top: 60px;
+}
+
+.long-flex {
+    display: flex;
+}
+
+.image,
+.long-image,
+.long-image-right {
     width: 20vw;
     border-radius: 40px;
 }
+
+.long-image {
+    width: 48vw;
+    height: 40vh;
+}
+
+.long-image-right {
+    right: 0;
+}
+
 
 .pedro {
     width: auto;
@@ -173,6 +219,13 @@ body {
 }
 
 .benu {
+    width: auto;
+    height: 30vh;
+    margin-top: 4px;
+    border-radius: 40px;
+}
+
+.cat {
     width: auto;
     height: 30vh;
     margin-top: 4px;
@@ -220,6 +273,6 @@ body {
     cursor: pointer;
 }
 
-.header-button:active { 
+.header-button:active {
     color: #c300ff;
 }
