@@ -104,7 +104,8 @@ body {
 .title-line-prehistory,
 .title-line-antiquity,
 .title-line-time,
-.title-line-newtime {
+.title-line-newtime,
+.title-line-puss {
     border: 4.4px solid white;
     border-radius: 5px;
     width: 30vw;
@@ -139,6 +140,10 @@ body {
     width: 18vw;
 }
 
+.title-line-puss {
+    width: 25.5vw;
+}
+
 .title-line-cat {
     border: 4.4px solid white;
     border-radius: 5px;
@@ -151,7 +156,8 @@ body {
 .image-div-casper,
 .image-div-long,
 .image-div-long2,
-.image-div-cat {
+.image-div-cat,
+.image-div-boots {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #a0d4a6, #b67295) border-box;
     border-radius: 46px;
@@ -180,14 +186,20 @@ body {
 .image-div-long2 {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #ea00ff, #1900ff) border-box;
-        margin-left: 10px;
+    margin-left: 10px;
 }
 
 .image-div-cat {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #ea00ff, #1900ff) border-box;
-        margin-left: 10px;
-        margin-top: 60px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+
+.image-div-boots {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #b700ff, #ff006a) border-box;
+        margin-top: 65px;
 }
 
 .long-flex {
@@ -275,4 +287,70 @@ body {
 
 .header-button:active {
     color: #c300ff;
+}
+
+.tooltip {
+    font-size: 1.5em;
+    font-family: 'Geologica';
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 1.65vw;
+    color: white;
+    background-color: transparent;
+}
+
+.tooltip:hover {
+    border: 1px solid rgb(19, 17, 17);
+}
+
+.tooltip:active {
+    background-color: #272829;
+    border: 1px solid #272829;
+}
+
+.hidden {
+    visibility: hidden;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+.animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+#tooltip-text {
+    color: #1a1a1a;
+    margin-top: 20px;
+    padding: 1vh 1vw 1vh 1vw;
 }
