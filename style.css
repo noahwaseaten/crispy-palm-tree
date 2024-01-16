@@ -43,7 +43,8 @@ body {
 }
 
 .section-div-biology,
-.section-div-history {
+.section-div-history,
+.section-div-famous-cats {
     background: linear-gradient(#272829, #272829) padding-box,
         linear-gradient(to right, #864fa2, #426eb7) border-box;
     border-radius: 40px;
@@ -52,7 +53,8 @@ body {
 
 .section-title,
 .section-title-biology,
-.section-title-history {
+.section-title-history,
+.section-title-famous-cats {
     margin-top: 2vh;
     color: white;
     font-size: 3.6em;
@@ -61,7 +63,8 @@ body {
 }
 
 .section-title-biology,
-.section-title-history {
+.section-title-history,
+.section-title-famous-cats {
     font-family: "IsamiRi Display";
     text-align: center;
     font-size: 6em;
@@ -71,6 +74,10 @@ body {
 
 .section-title-history {
     margin-left: 8vw;
+}
+
+.section-title-famous-cats {
+    margin-right: 8vw;
 }
 
 .section-text-div {
@@ -96,6 +103,12 @@ body {
     margin-left: 9vw;
 }
 
+.section-text-famous-cats {
+    color: white;
+    font-size: 2em;
+    margin-left: 6vw;
+}
+
 
 .title-line,
 .title-line-food,
@@ -105,7 +118,8 @@ body {
 .title-line-antiquity,
 .title-line-time,
 .title-line-newtime,
-.title-line-puss {
+.title-line-puss,
+.title-line-jellie {
     border: 4.4px solid white;
     border-radius: 5px;
     width: 30vw;
@@ -144,6 +158,10 @@ body {
     width: 25.5vw;
 }
 
+.title-line-jellie {
+    width: 7vw;
+}
+
 .title-line-cat {
     border: 4.4px solid white;
     border-radius: 5px;
@@ -157,7 +175,8 @@ body {
 .image-div-long,
 .image-div-long2,
 .image-div-cat,
-.image-div-boots {
+.image-div-boots,
+.image-div-jellie {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #a0d4a6, #b67295) border-box;
     border-radius: 46px;
@@ -202,6 +221,11 @@ body {
         margin-top: 65px;
 }
 
+.image-div-jellie {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #ffffff, #423b3b9f) border-box;
+}
+
 .long-flex {
     display: flex;
 }
@@ -215,7 +239,7 @@ body {
 
 .long-image {
     width: 48vw;
-    height: 40vh;
+    height: 45vh;
 }
 
 .long-image-right {
@@ -353,4 +377,14 @@ body {
     color: #1a1a1a;
     margin-top: 20px;
     padding: 1vh 1vw 1vh 1vw;
+}
+
+.image-div-tooltip {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #a0d4a6, #b67295) border-box;
+}
+
+.image-div-tooltip:hover {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #67c572, #cf5293) border-box;
 }
