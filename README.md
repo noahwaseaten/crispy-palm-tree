@@ -1,4 +1,6 @@
-school project, 
+school project
+
+put cat Maui and Keyboard cat (but the gif)
 
 original layout: https://excalidraw.com/#json=sSmuFcyt4X1umqLgMzped,LZPPuOo80xbpjmDoohYoCQ
 
