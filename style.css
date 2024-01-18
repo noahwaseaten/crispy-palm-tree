@@ -10,7 +10,7 @@
 
 
 body {
-    background-color: black;
+    background-color: #272829;
     font-family: 'Geologica';
     margin: auto;
 }
@@ -218,7 +218,7 @@ body {
 .image-div-boots {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #b700ff, #ff006a) border-box;
-        margin-top: 65px;
+    margin-top: 65px;
 }
 
 .image-div-jellie {
@@ -404,7 +404,141 @@ body {
     font-size: 2em;
 }
 
-a {
+.a {
     text-decoration: none;
     margin-left: 40px;
+}
+
+.go-back {
+    font-family: "IsamiRi Display";
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+    margin-top: 13px;
+    border: 2px solid white;
+    border-radius: 100px;
+    width: 6vw;
+    height: 5vh;
+    transition: filter 150ms
+}
+
+.go-back:hover {
+    filter: drop-shadow(0 0 0.4em rgb(140, 0, 255))
+}
+
+.go-back:active {
+    border: 1px white;
+    border-style: groove;
+}
+
+.main-window {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #0077ff, #b67295) border-box;
+    height: 86vh;
+    border-radius: 40px;
+    width: 40vw;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-div {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #ffae00, #ffbb00) border-box;
+    height: 41.5vh;
+    border-radius: 40px;
+    width: 39vw;
+    margin-top: 1.2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.school-div {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to left, #ff5100, #772006) border-box;
+    height: 20.5vh;
+    border-radius: 40px;
+    width: 39vw;
+    margin-top: 1.2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address-div {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to left, #0099ff, #189100) border-box;
+    height: 19vh;
+    border-radius: 40px;
+    width: 39vw;
+    margin-top: 1.2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-text-no {
+    color: white;
+    font-size: 2em;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #0077ff;
+}
+
+.website:hover {
+    color: #cc00ff;
+}
+
+.phone:hover {
+    color: #0077ff;
+}
+
+#address {
+    color: rgb(212, 204, 204);
+    font-size: 1.8em;
+    margin-left: 30px;
+}
+
+#HIDDENDIV {
+    display: none;
+}
+
+#table td {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+
+#table.show tr>*:nth-child(2) {
+    display: block;
+}
+
+#passw {
+    font-size: 1.5em;
+    margin-top: 2vh;
+    margin-left: 11vw;
+}
+
+#button {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to left, #0099ff, #189100) border-box;
+    font-family: "Geologica";
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#button:hover {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to left, #0062a3, #157c00) border-box;
+    font-family: "Geologica";
+    border: 1px solid black;
+    border-radius: 8px;
 }

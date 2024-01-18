@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/isamirivers/IsamiRi-Display@main/stylesheet.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="go-back-div">
+      <a href="index.html">
+        <button class="go-back">Върни се?</button>
+      </a>
+    </div>
+    <div class="main-window">
+      <div class="name-div">
+        <p class="section-text-no">
+          👋 Аз съм Камен! <br />(също познат като noahwaseaten) <br />13
+          годишен програмист :D
+          <br />
+          <br />
+          Телефон:
+          <a class="phone" href="tel:+359882543142">+359882543142</a>
+          <br />
+          <br />
+          Имейл:
+          <a class="email" href="mailto:kamenmitsev6@gmail.com"
+            >kamenmitsev6@gmail.com</a
+          >
+          <br />
+          <br />
+          Уебсайта ми:
+          <a class="website" href="https://noahwaseaten.com/"
+            >noahwaseaten.com</a
+          >
+        </p>
+      </div>
+      <div class="school-div">
+        <p class="section-text-no">
+          Училишето ми:
+          <a href="https://12sou-sofia.info/">12 СУ „Цар Иван Асен ІІ</a>
+          <br />
+          <br />
+          Motivation: уебсайт толкова добър. ще се чудат как се прави и други
+          програмисти
+        </p>
+      </div>
+      <div class="address-div">
+        <div id="passw">
+          <div class="password">
+            Въведете паролата за да
+            <br />видите тази информация:
+          </div>
+          <div>
+            <input
+              type="password"
+              id="password"
+              onkeydown="if (event.keyCode == 13) document.getElementById('button').click()"
+            />
+            <!-- IMPORTANT! this part is so if you click enter, it works. -->
+          </div>
+
+          <div>
+            <br />
+            <input
+              id="button"
+              type="button"
+              value="Продължи"
+              onclick="if (document.getElementById('password').value == '1842') { 
+              document.getElementById('address').classList.toggle('show');   document.getElementById('passw').style.display='none'; } 
+              else {  alert('Invalid Password!'); password.setSelectionRange(0, password.value.length);   } "
+            />
+          </div>
+          <!-- it will autoselect wrong input if wrong -->
+          <br /><br /><br />
+        </div>
+        <p id="address">
+          1407 Крастова Вада, София
+          <br />Ул. Асен Йорданов <br />
+          Google Maps
+          <a
+            href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%90%D1%81%D0%B5%D0%BD+%D0%99%D0%BE%D1%80%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2,+1407+Krastova+vada,+Sofia/@42.6532325,23.3128791,21z/data=!4m6!3m5!1s0x40aa8466ee821b25:0x6212ccce81b75a3d!8m2!3d42.6532667!4d23.3129707!16s%2Fg%2F11xg14w6t?entry=ttu"
+            >локация</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
