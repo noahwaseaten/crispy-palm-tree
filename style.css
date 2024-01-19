@@ -679,13 +679,15 @@ tbody, tr {
 }
 
 .widget {
-    margin-left: 4vw;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
     border-radius: 20px;
 }
 
 .section-text-keyboard {
     color: white;
     font-size: 2em;
+    margin-left: 2vw;
     margin-top: 1vh;
 }
 
