@@ -44,17 +44,23 @@ body {
 
 .section-div-biology,
 .section-div-history,
-.section-div-famous-cats {
+.section-div-famous-cats,
+.section-div-cat-needs {
     background: linear-gradient(#272829, #272829) padding-box,
         linear-gradient(to right, #864fa2, #426eb7) border-box;
     border-radius: 40px;
     border: 8px solid transparent;
 }
 
+.section-div-cat-needs {
+    margin-bottom: 4vh;
+}
+
 .section-title,
 .section-title-biology,
 .section-title-history,
-.section-title-famous-cats {
+.section-title-famous-cats,
+.section-title-cat-needs {
     margin-top: 2vh;
     color: white;
     font-size: 3.6em;
@@ -64,7 +70,8 @@ body {
 
 .section-title-biology,
 .section-title-history,
-.section-title-famous-cats {
+.section-title-famous-cats,
+.section-title-cat-needs {
     font-family: "IsamiRi Display";
     text-align: center;
     font-size: 6em;
@@ -73,7 +80,16 @@ body {
 }
 
 .section-title-history {
-    margin-left: 8vw;
+    margin-left: 13vw;
+}
+
+.section-title-biology {
+    margin-top: 1vh;
+    margin-left: 16vw;
+}
+
+.section-title-cat-needs {
+    margin-left: 17vw;
 }
 
 .section-title-famous-cats {
@@ -84,29 +100,64 @@ body {
     margin-left: 2vw;
 }
 
+.section-title-cat-needs {
+    margin-right: 6vw;
+}
+
 .section-text,
-.section-text-biology,
-.section-under-text {
+.section-under-text,
+.section-text-info,
+.section-text-help {
     color: white;
     font-size: 2em;
     text-indent: 2.5vw;
 }
 
+.section-text-info {
+    margin-top: -1.5vh;
+    margin-left: -1vw;
+}
+
+.a-info:hover, .a-help:hover, .maui:hover {
+    color: #cc00ff;
+}
+
+li {
+    color: white;
+    font-size: 2em;
+}
+
 .section-text-biology {
-    margin-left: 3vh;
+    color: white;
+    font-size: 2em;
+    margin-left: 43vh;
     margin-bottom: 3vh;
 }
 
 .section-text-history {
     color: white;
     font-size: 2em;
-    margin-left: 9vw;
+    margin-left: 15vw;
 }
 
 .section-text-famous-cats {
     color: white;
     font-size: 2em;
     margin-left: 6vw;
+}
+
+.section-text-cat-needs {
+    color: white;
+    font-size: 2em;
+    margin-left: 20vw;
+}
+
+.section-got, .section-help {
+    color: white;
+    font-family: "IsamiRi Display";
+    font-size: 2em;
+    margin-top: 1.2vh;
+    margin-left: 1.7vw;
 }
 
 
@@ -119,7 +170,10 @@ body {
 .title-line-time,
 .title-line-newtime,
 .title-line-puss,
-.title-line-jellie {
+.title-line-jellie,
+.title-line-keyboard,
+.title-line-nowtime,
+.title-line-move {
     border: 4.4px solid white;
     border-radius: 5px;
     width: 30vw;
@@ -150,8 +204,16 @@ body {
     width: 21.5vw;
 }
 
+.title-line-nowtime {
+    width: 24vw;
+}
+
 .title-line-newtime {
-    width: 18vw;
+    width: 18.5vw;
+}
+
+.title-line-move {
+    width: 15vw;
 }
 
 .title-line-puss {
@@ -169,6 +231,10 @@ body {
     margin-top: -5vh;
 }
 
+.title-line-keyboard {
+    width: 19vw;
+}
+
 .image-div,
 .image-div-benu,
 .image-div-casper,
@@ -176,7 +242,9 @@ body {
 .image-div-long2,
 .image-div-cat,
 .image-div-boots,
-.image-div-jellie {
+.image-div-jellie,
+.image-div-footer,
+.image-div-maui {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #a0d4a6, #b67295) border-box;
     border-radius: 46px;
@@ -224,6 +292,17 @@ body {
 .image-div-jellie {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #ffffff, #423b3b9f) border-box;
+}
+
+.image-div-footer {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #ffffff, #423b3b9f) border-box;
+    margin-left: 19vw;
+}
+
+.image-div-maui {
+    background: linear-gradient(transparent, transparent) padding-box,
+        linear-gradient(to right, #552620, #474747) border-box;
 }
 
 .long-flex {
@@ -314,12 +393,12 @@ body {
 }
 
 .tooltip {
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Geologica';
     border: 1px solid black;
     border-radius: 100%;
-    width: 1.65vw;
-    color: red;
+    width: 2.35vw;
+    color: white;
     background-color: transparent;
 }
 
@@ -389,7 +468,7 @@ body {
         linear-gradient(to right, #67c572, #cf5293) border-box;
 }
 
-.footer {
+.footer, .footer-contact, .footer-info {
     left: 0;
     width: 100%;
     margin-top: -4vh;
@@ -398,7 +477,21 @@ body {
     background-color: #140f0f;
 }
 
-.footer-content {
+.footer-contact {
+    margin-top: 1vh;
+}
+
+.footer-image {
+    height: 38vh;
+    width: 60vw;
+    border-radius: 40px;
+}
+
+.footer-info {
+    margin-top: 3.4vh;
+}
+
+.footer-content, .footer-content-contact {
     font-family: "IsamiRi Display";
     margin-top: 0.7vh;
     font-size: 2em;
@@ -409,10 +502,21 @@ body {
     margin-left: 40px;
 }
 
+.a-info, .maui {
+    text-decoration: none;
+    margin-left: 48px;
+    color: #a144cf;
+}
+
+.maui {
+    margin-left: 0px;
+}
+
 .go-back {
     font-family: "IsamiRi Display";
     background-color: transparent;
     color: white;
+    cursor: pointer;
     margin-left: 10px;
     margin-top: 13px;
     border: 2px solid white;
@@ -478,11 +582,15 @@ body {
     margin-right: auto;
 }
 
-.section-text-no {
+.section-text-no, .section-text-moti {
     color: white;
     font-size: 2em;
     margin-top: 2vh;
     margin-left: 1vw;
+}
+
+.section-text-moti {
+margin-top: -6.8vh;
 }
 
 a {
@@ -501,25 +609,43 @@ a {
     color: #0077ff;
 }
 
-#address {
-    color: rgb(212, 204, 204);
-    font-size: 1.8em;
-    margin-left: 30px;
+.un-hidden {
+    font-size: 2em;
+    margin-left: 1vw;
+    color: white;
 }
 
 #HIDDENDIV {
     display: none;
+    font-size: 1.3em;
+    margin-left: -8.5vw;
+    margin-top: -8vh;
+    color: white;
 }
 
-#table td {
-    padding: 1em;
-    border: 1px solid black;
+#table {
+    color: rgb(212, 204, 204);
+    font-size: 1.8em;
+    margin-top: 10vh;
+    margin-left: 9vw;
 }
 
+tbody, tr {
+    margin-top: 100vh;
+}
 
-#table.show tr>*:nth-child(2) {
+.blast {
+    margin-top: -10vh;
+}
+
+.blaster {
+    margin-bottom: -100vh;
+}
+
+#table.show tr > *:nth-child(2) {
     display: block;
 }
+
 
 #passw {
     font-size: 1.5em;
@@ -527,18 +653,91 @@ a {
     margin-left: 11vw;
 }
 
+#password {
+    margin-left: 1.2vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 2.5vh;
+    width: 13vw;
+}
+
 #button {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to left, #0099ff, #189100) border-box;
-    font-family: "Geologica";
+    font-family: "IsamiRi Display";
     border: 1px solid black;
+    font-size: 0.7em;
+    height: 4vh;
+    width: 7vw;
+    margin-left: 4.2vw;
     border-radius: 8px;
 }
 
 #button:hover {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to left, #0062a3, #157c00) border-box;
-    font-family: "Geologica";
-    border: 1px solid black;
-    border-radius: 8px;
+}
+
+.widget {
+    margin-left: 4vw;
+    border-radius: 20px;
+}
+
+.section-text-keyboard {
+    color: white;
+    font-size: 2em;
+    margin-top: 1vh;
+}
+
+.keyboard-div {
+    margin-top: 10vh;
+    margin-left: 4vw;
+}
+
+.dots {
+    margin-left: -2vw;
+}
+
+.information-window {
+    margin-top: 3.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 80vh;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+
+.got-info {
+    margin-top: 1.8vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 37vh;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+
+.got-help {
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78vw;
+    height: 37vh;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+
+.section-text-help {
+    margin-top: -2vh;
+    margin-left: -1vw;
+    font-size: 2em;
+}
+
+.a-help {
+    font-size: 2em;
+    margin-left: 1.6vw;
+    color: #a144cf;
 }
