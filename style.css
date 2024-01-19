@@ -552,7 +552,7 @@ li {
 .name-div {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to right, #ffae00, #ffbb00) border-box;
-    height: 30vh;
+    height: 33vh;
     border-radius: 40px;
     width: 39vw;
     margin-top: 1.2vh;
@@ -563,10 +563,10 @@ li {
 .school-div {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to left, #ff5100, #772006) border-box;
-    height: 22vh;
+    height: 21vh;
     border-radius: 40px;
     width: 39vw;
-    margin-top: 1.2vh;
+    margin-top: 1vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -574,10 +574,10 @@ li {
 .address-div {
     background: linear-gradient(transparent, transparent) padding-box,
         linear-gradient(to left, #0099ff, #189100) border-box;
-    height: 29vh;
+    height: 28vh;
     border-radius: 40px;
     width: 39vw;
-    margin-top: 1.2vh;
+    margin-top: 1vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -590,7 +590,7 @@ li {
 }
 
 .section-text-moti {
-margin-top: -3vh;
+margin-top: -6.2vh;
 }
 
 a {
@@ -617,9 +617,9 @@ a {
 
 #HIDDENDIV {
     display: none;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-left: -8vw;
-    margin-top: -5vh;
+    margin-top: -6vh;
     color: white;
 }
 
@@ -648,13 +648,13 @@ tbody, tr {
 
 
 #passw {
-    font-size: 2.3em;
+    font-size: 2.1em;
     margin-top: 4vh;
     margin-left: 7.6vw;
 }
 
 #password {
-    margin-left: 0.8vw;
+    margin-left: 0vw;
     border: 1px solid black;
     border-radius: 10px;
     height: 2.5vh;
